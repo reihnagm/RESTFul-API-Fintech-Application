@@ -49,11 +49,16 @@ GET api/v1/transactions
     }
 ```
 POST api/v1/transactions  
+
 <ul>  
+  <li> Request Body </li>  
+</ul>  
+
+<ol>  
     <li>transactions (ex Top Up)</li>  
     <li>amount (ex 10000)</li>  
     <li>recipient (ex 089670558381)</li>  
-</ul>
+</ol>
 
 Transaction |  
 ------------ |  
