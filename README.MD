@@ -32,7 +32,6 @@ $ npm run start
 
 ### ENDPOINT
 GET api/v1/transactions
-response -
 ```
     {
 
@@ -44,16 +43,19 @@ response -
        
     }
 ```
-POST api/v1/transactions
-request body    - transactions (ex Top Up)
-                - amount (ex 10000)
-                - recipient (ex 089670558381)
-Transaction | 
------------- | 
-Top Up |
-Transfer P2P (Out) |
-Transfer Fee | 
-Transfer P2P (In) | 
+POST api/v1/transactions  
+<ol>  
+    <li>transactions (ex Top Up)</li>  
+    <li>amount (ex 10000)</li>  
+    <li>recipient (ex 089670558381)</li>  
+</ol>
+
+Transaction |  
+------------ |  
+Top Up |  
+Transfer P2P (Out) |  
+Transfer Fee |   
+Transfer P2P (In) |   
 
 ### HOW TO USE
 Import SQL "db.sql" to your database and running server  
