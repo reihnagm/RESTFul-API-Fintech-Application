@@ -1,5 +1,6 @@
 RESTful API for Bank-In fintech application, this project for testing not using for real application
 or if you find usefull feature, feel free to use.  
+
 ---
 ## Prerequiste
 - Node.js - Download and Install [Node.js](https://nodejs.org/en/)
@@ -11,8 +12,8 @@ or if you find usefull feature, feel free to use.
 ## Installation
 ### Clone
 ```bash
-$ git clone https://github.com/reihnagm/RESTful-API-Node-JS-Express.git
-$ cd RESTful-API-Node-JS-Express
+$ git clone https://github.com/reihnagm/RESTFul-API-Fintech-Application.git
+$ cd RESTFul-API-Fintech-Application
 $ npm install
 ```
 
@@ -46,3 +47,8 @@ POST api/v1/transactions
 request body    - transactions (ex Top Up)
                 - amount (ex 10000)
                 - reciptien (ex 089670558381)
+
+### HOW TO USE
+Import SQL "db.sql" to your database and running server  
+You can test API via Postman or any similiar app.
+if you want to see relation of table, I attached file diagram database, name as "db-schema.svg".
