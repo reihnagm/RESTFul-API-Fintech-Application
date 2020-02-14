@@ -68,6 +68,14 @@ Transfer Fee |
 Transfer P2P (In) |   
 
 ### HOW TO USE
-Import SQL "db.sql" to your database and running server  
-You can test API via Postman or any similiar app.  
+Import SQL "db.sql" to your database and running server,  
+You can test API via Postman or any similiar app,  
 If you want to see relation of table, I attached file diagram database, name as "db-schema.svg".
+
+## Dependencies
+- [mysql](#)
+- [express](#)
+- [dotenv](#)
+- [moment](#)
+- [body-parser](#)
+- etc.
