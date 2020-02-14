@@ -32,23 +32,30 @@ $ npm run start
 
 ### ENDPOINT
 GET api/v1/transactions
-response - {
-    data: [
-        {
-            "Transaction": "Top Up",
-            "Code": "TOP140220146",
-            "Date": "2020-02-14T15:54:38.000Z",
-            "Amount": "+ Rp10,000",
-            "Recipient": "089670558381"
-        }
-    ]
-}
+response -
+```
+    {
+
+      "Transaction": "Top Up",
+      "Code": "TOP140220146",
+      "Date": "2020-02-14T15:54:38.000Z",
+      "Amount": "+ Rp10,000",
+      "Recipient": "089670558381"
+       
+    }
+```
 POST api/v1/transactions
 request body    - transactions (ex Top Up)
                 - amount (ex 10000)
-                - reciptien (ex 089670558381)
+                - recipient (ex 089670558381)
+Transaction | 
+------------ | 
+Top Up |
+Transfer P2P (Out) |
+Transfer Fee | 
+Transfer P2P (In) | 
 
 ### HOW TO USE
 Import SQL "db.sql" to your database and running server  
-You can test API via Postman or any similiar app.
-if you want to see relation of table, I attached file diagram database, name as "db-schema.svg".
+You can test API via Postman or any similiar app.  
+If you want to see relation of table, I attached file diagram database, name as "db-schema.svg".
